@@ -41,3 +41,10 @@ tari-win-bundler/bin
 
 # Built process-wrapper sidecar binaries
 src-tauri/binaries/
+
+# Ruflo (claude-flow) runtime state — config is tracked, local data is not
+.claude-flow/data/
+.claude-flow/sessions/
+.claude-flow/metrics/
+.claude-flow/learning/
+.swarm/
